@@ -1,0 +1,7 @@
+name: acceso_limpieza_datos
+channels:
+  - defaults
+dependencies:
+  - pandas=2.1.4
+  - pyspark=3.5.0
+  - requests=2.31.0
