@@ -1,8 +1,12 @@
-name: acceso_limpieza_datos
+name: cua_finanzas
 channels:
   - defaults
+  - conda-forge/osx-arm64
 dependencies:
-  - pandas=2.1.4
+  - python=3.10.13
+  - pandas=2.0.0
   - requests=2.31.0
   - sqlalchemy=2.0.21
+  - psycopg2
   - pyarrow=11.0.0
+  - pandas_profiling
